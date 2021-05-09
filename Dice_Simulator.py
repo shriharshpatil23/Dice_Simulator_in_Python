@@ -1,11 +1,11 @@
 #SHRIHARSH VINOD PATIL
 
 import random
-print("This is a DICE SIMULATOR")
-x = "y"
+print("This is a DICE SIMULATOR")       #prints the Statement
+x = "y"                                 #sets value to x as y
 
-while x == "y":
-    number = random.randint(1,6)
+while x == "y":                         #checks condition
+    number = random.randint(1,6)        #randit method assign random value between 1-6 to number variable
 
     if number == 1:
         print("----------")
@@ -43,4 +43,4 @@ while x == "y":
         print("| O    O |")
         print("| O    O |")
         print("----------")
-    x = input("Press y to Role Again AND n to Stop\n")
+    x = input("Press y to Role Again AND n to Stop\n")      #takes user input as y or n and stores it in x
